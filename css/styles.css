@@ -1,0 +1,60 @@
+body
+{
+    background-color: blue;
+
+}
+.firstPage
+{
+    background-image: url("travis.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20% 2%;
+    text-align: center;
+   
+}
+.beg
+{
+    color:white;
+    font-size: 400%;
+    font-weight: 900;
+}
+.beg2
+{
+    color:white;
+    font-size: 300%;
+    font-weight: 900; 
+}
+.quote
+{
+    color:white;
+    font-size: 200%;
+    font-weight: 900; 
+    margin: auto;
+    text-align: center;
+    padding: 2% 2%;
+    font-style: italic;
+    width: 60%;
+}
+.apply
+{
+    background-color: #200371; 
+    padding: 2%;
+    text-align: center;
+}
+.abs
+{
+    position: absolute;
+}
+.row1
+{
+    background-color: #e7e7e7;
+    text-align: center;
+    padding: 2% 2%;
+}
+@media (max-width:500px)
+{
+    .firstPage
+    {
+        padding-top: 20%;
+    }
+}
